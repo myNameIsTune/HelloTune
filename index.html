@@ -2,38 +2,75 @@
 <html lang="ko">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="index.css"> 
+        <title>신촌학사 식사를 합시다</title>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css?family=Lobster|Nanum+Gothic|Teko&display=swap" rel="stylesheet">
     </head>
-    <body>
-        
-        
-        <div class="js-date">
-            <div class="date"></div>
-        </div>
-        <div class="center">  
-            <div class="js-clock">
-            <div class="clockTime"></div>
-            </div>
-            <form class="js-form">
-                <input type="text" placeholder="Write your name here Plz" ></input>
-            </form>
-            <div class="js-greeting greetings">
-                <div class="greet"></div>
-            </div>
-            <form class="jss-formToDos">
-                <input type="text" placeholder="Write down your list"></input>
-            </form>
-                <ul class="js-listToDos">
-                </ul>
-            <div class="js-weather"></div>
 
+    <body>
+        <header>
+            <div class="header_title">Shinchon</div>
+            <div class="header_menu">
+                <div class="header_menu_weekly">주간식단</div>
+                <div class="header_menu_ingredients">식재료</div>
+            </div>
+        </header>
+        <div class="date">날짜 표시입니다</div>
+        <div class="daliy">
+            <div class="daily_time">Breakfast</div>
+            <div class="daily_inform">
+                <div class="daily_menu">
+                    <div class="daily_menu_name">
+                        menu
+                        <ul>
+                            <li>불고기</li>
+                            <li>김치</li>
+                        </ul>
+                    </div>
+                    <div class="daily__menu_ingredients">
+                        ingredients
+                        <ul>
+                            <li>돼지고기</li>
+                            <li>김치</li>
+                        </ul>  
+                    </div>
+                </div>
+                <div class="daily_person">튠,에드워드,짱짱맨</div>
+                <div class="daily_checkbox">
+                    <div class="daily_checkbox_btn"><button>O</button></div>
+                    <div class="daily_checkbox_btn"><button>X</button></div>
+                    <div class="daily_checkbox_btn"><button>?</button></div>
+                </div>
+            </div>
         </div>
-      
-        <script src="weather.js"></script>
-        <script src="bg.js"></script>
-        <script src="clock.js"></script>
-        <script src="name.js"></script>
-        <script src="todo.js"></script>
-       
+        <div class="daliy">
+            <div class="daily_time">Dinner</div>
+            <div class="daily_inform">
+                <div class="daily_menu">
+                    <div class="daily_menu_name">
+                        menu
+                        <ul>
+                            <li>불고기</li>
+                            <li>김치</li>
+                        </ul>
+                    </div>
+                    <div class="daily__menu_ingredients">
+                        ingredients
+                        <ul>
+                            <li>돼지고기</li>
+                            <li>김치</li>
+                        </ul>  
+                    </div>
+                </div>
+                <div class="daily_person">튠,에드워드,짱짱맨</div>
+                <div class="daily_checkbox">
+                    <div class="daily_checkbox_btn"><button>O</button></div>
+                    <div class="daily_checkbox_btn"><button>X</button></div>
+                    <div class="daily_checkbox_btn"><button>?</button></div>
+                </div>
+            </div>
+        </div>
+        
+        
     </body>
 </html>
