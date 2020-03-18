@@ -6,7 +6,7 @@ function loadingCheck(){
 
 function pantingBG(num){
     const image = new Image();
-    image.src = `images/${num}.jpg`;
+    image.src = `${num}.jpg`;
     image.classList.add("bgImage");
     body.appendChild(image);
     image.addEventListener("loadend",loadingCheck)
