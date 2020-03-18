@@ -57,6 +57,8 @@ header{
     margin-top :3%;
     box-shadow: 5px 5px 10px black;
     border-radius: 5% 5% 5% 5%/5% 5% 5% 5%;
+    
+    font-family: 'Teko', sans-serif;
 }
 .weekly{
     padding: 2.5%;
@@ -76,34 +78,46 @@ header{
         font-family: 'Teko', sans-serif;
         margin: 0% 2%;
     }
-    .daily_inform{
-        font-family: 'Teko', sans-serif;
-        font-size: 3rem;
-    }
+    
     .daily_date{
         font-family: 'Teko', sans-serif;
         font-size: 3rem;
     }
-
-        .daily_menu_name{
-            border: 2px solid #b2bec3 ;
+    .daily_inform{
+        font-family: 'Teko', sans-serif;
+        font-size: 3rem;
+        height: 70%;
+    }
+        .daily_menu{
+            height: 100%;
         }
-        .daily__menu_ingredients{
-            border: 2px solid #b2bec3 
-        }
-        .daily_person{
-            border: 2px solid #b2bec3
-        }
-        .daily_checkbox{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            padding-top: 5%;
-        }
-            .daily_checkbox_btn>button  {
-                border: 3px solid rebeccapurple;
-                padding: 0px 10px;
-                font-size: larger;
+            .daily_menu_name{
+                border: 2px solid #b2bec3;
+                height: 100%;
+                transition: all 0.5s;
             }
+            .daily__menu_ingredients{
+                border: 2px solid #b2bec3;
+                height: 100%;
+                transition: all 0.5s; 
+            }
+            .daily_menu_folding{
+                overflow: hidden;
+                height: 0%;
+            }
+            .daily_person{
+                border: 2px solid #b2bec3
+            }
+            .daily_checkbox{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding-top: 5%;
+            }
+                .daily_checkbox_btn>button  {
+                    border: 3px solid rebeccapurple;
+                    padding: 0px 10px;
+                    font-size: larger;
+                }
 
     
