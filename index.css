@@ -57,8 +57,7 @@ header{
 }
 .daliy{
     padding: 5%;
-    width: 80%;
-    height: 40%;
+    width: 80vw;
     margin :3%;
     border-radius: 5% 5% 5% 5%/5% 5% 5% 5%;
     box-shadow: 5px 5px 10px black;
