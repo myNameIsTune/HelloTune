@@ -1,0 +1,25 @@
+body{
+    font-size: 4rem;
+}
+
+.loca{
+    padding: 5%;
+    width: 80vw;
+    margin :3%;
+    border-radius: 5% 5% 5% 5%/5% 5% 5% 5%;
+    box-shadow: 5px 5px 10px black;
+    font-family: 'Teko', sans-serif
+}
+
+table{
+    font-size: 3rem;
+    border: 2px solid #2a2d2e;
+}
+tr{
+
+    border: 2px solid #2a2d2e;
+}
+td{
+
+    border: 2px solid #2a2d2e;
+}

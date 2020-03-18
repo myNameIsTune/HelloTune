@@ -1,4 +1,7 @@
-
+.noul{
+    text-decoration: none;
+    color: #000000;
+}
 body{
     margin: 0px;
     width: 100vw;
@@ -55,23 +58,36 @@ header{
     box-shadow: 5px 5px 10px black;
     border-radius: 5% 5% 5% 5%/5% 5% 5% 5%;
 }
+.weekly{
+    padding: 2.5%;
+    margin-top :3%;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 5% 5% 5% 5%/5% 5% 5% 5%;
+}
 .daliy{
     padding: 5%;
     width: 80vw;
     margin :3%;
     border-radius: 5% 5% 5% 5%/5% 5% 5% 5%;
     box-shadow: 5px 5px 10px black;
-}
+}   
+    
     .daily_time{
         font-family: 'Teko', sans-serif;
+        margin: 0% 2%;
     }
     .daily_inform{
         font-family: 'Teko', sans-serif;
         font-size: 3rem;
+        display: flex;
     }
+    .daily_date{
+        font-family: 'Teko', sans-serif;
+        font-size: 3rem;
+    }
+
         .daily_menu_name{
             border: 2px solid #b2bec3 ;
-            
         }
         .daily__menu_ingredients{
             border: 2px solid #b2bec3 
@@ -91,4 +107,4 @@ header{
                 font-size: larger;
             }
 
-
+    
